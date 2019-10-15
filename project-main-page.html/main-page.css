@@ -1,0 +1,961 @@
+.banner{
+    
+    display: grid;
+    height: 260px;
+    margin: -5px;
+    grid-template-rows: 1fr 7fr;
+}
+
+.top-banner{
+    background: url(images/banner/page_top_bg.png);
+    margin:-5px;
+    height: 45px;
+}
+
+.inner-top-banner{
+    
+    display: grid;
+    grid-template-columns: 2fr 3fr; 
+    margin-left: 100px;
+
+}
+
+.slogan h1{
+    color: #5b4e45;
+    margin-top: center;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.uye-islemleri{
+
+    margin-top: 5px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr 2fr;
+    /* text-align: center; */
+}
+
+.facebook{
+
+    font-weight: bold;
+    font-size: 14px;
+    color: #485589;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.kayit-giris{
+
+    font-weight: bold;
+    font-size: 14px;
+    color: #d53235;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+.kullanici-islemleri{
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: 3fr 2fr; 
+}
+
+.sepet{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+
+.sepet-resim{
+    background: url(images/banner/red_basket_icon.png) no-repeat center;
+    background-size: 30px;
+    margin-top: -5px; 
+}
+
+.fiyat{
+
+    font-size: 19px;
+    font-weight: bold;
+    color: #d53235;
+    margin-top: 3px;
+    margin-left:-100px;
+}
+
+.bottom-banner{
+
+    display: grid;
+    grid-template-rows: 7fr 2fr;
+    margin: -5px;
+    height: 190px;
+    background: url(images/banner/nav_bg.png);
+}
+
+.logo-bar{
+
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.logo img{
+
+    margin-top: 45px;
+    margin-left: 643px;
+
+}
+
+.arama-bar{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.bar input{
+    border: 0px;
+    float: right;
+    margin-top: 64.9px;
+    width: 230px;
+    height: 27px;
+}
+
+.bar input[type="text"] ::placeholder{
+    color: #d53235;
+}
+
+.buton button{
+
+    border: 0px;
+    background-color: white;
+    margin-top: 64.5px;
+    width: 30px;
+    height: 30px;
+}
+
+.buton img{
+
+    margin-top: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+.kategoriler{
+
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 250px;
+    margin-right: 250px;
+    /* position: fixed; 
+    top: 0; */
+}
+
+.slider-1{
+    margin-top: -40px;
+}
+
+.anasayfa{
+   
+    background: url(images/banner/kategori/anasayfa.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 65px;
+    margin-left: 0px;
+}
+
+.ciftlik{
+
+    background: url(images/banner/kategori/ciftlik.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 65px;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.tum-urunler{
+
+    
+    background: url(images/banner/kategori/tum-urunler.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 90px;
+    margin-left: -50px;
+}
+
+.domates-biber{
+
+    background: url(images/banner/kategori/domates-biber.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 120px;
+    margin-left: -60px;
+}
+
+.sut-peynir{
+
+    background: url(images/banner/kategori/sut-peynir.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 90px;
+    margin-left: -40px;
+}
+
+.yumurta-sucuk{
+    background: url(images/banner/kategori/yumurta.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 120px;
+    margin-left: -50px;
+}
+
+.salca-tursu{
+
+    background: url(images/banner/kategori/salca-tursu.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 100px;
+    margin-left: -30px;
+}
+
+.zeytin-zeytinyagi{
+
+    background: url(images/banner/kategori/zeytin-zeytinyagi.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 150px;
+    margin-left: -37px;
+}
+
+.recel-bal{
+
+    background: url(images/banner/kategori/recel-bal.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 100px;
+    margin-left: -2px;
+}
+
+
+.anasayfa:hover{
+   
+    background: url(images/banner/kategori/anasayfa-1.png) no-repeat center;
+    background-color: transparent;
+    background-size: 50px;
+    border: 0px;
+    margin-top: -3px;
+    margin-left: -3px;
+    height: 60px;
+    width: 65px;
+}
+
+.ciftlik:hover{
+
+    background: url(images/banner/kategori/ciftlik-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 65px;
+    margin-top: 2px;
+    margin-left: -20px;
+}
+
+.tum-urunler:hover{
+
+    
+    background: url(images/banner/kategori/tum-urunler-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 90px;
+    margin-left: -50px;
+}
+
+.domates-biber:hover{
+
+    background: url(images/banner/kategori/domates-biber-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 120px;
+    margin-left: -60px;
+}
+
+.sut-peynir:hover{
+
+    background: url(images/banner/kategori/sut-peynir-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 90px;
+    margin-left: -40px;
+}
+
+.yumurta-sucuk:hover{
+    background: url(images/banner/kategori/yumurta-1.png) no-repeat center;
+    background-color: transparent;
+    background-size: 50px;
+    border: 0px;
+    height: 60px;
+    width: 120px;
+    margin-left: -50px;
+}
+
+.salca-tursu:hover{
+
+    background: url(images/banner/kategori/salca-tursu-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 100px;
+    margin-left: -30px;
+}
+
+.zeytin-zeytinyagi:hover{
+
+    background: url(images/banner/kategori/zeytin-zeytinyagi-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 150px;
+    margin-left: -37px;
+}
+
+.recel-bal:hover{
+
+    background: url(images/banner/kategori/recel-bal-1.png) no-repeat center;
+    background-color: transparent;
+    border: 0px;
+    height: 60px;
+    width: 100px;
+    margin-left: -2px;
+}
+
+.main{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.baslik{
+
+    margin-top: 30px;
+    width: 500px;
+    font-size: 30px;
+    color: #d53235;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 33px;
+    background: url(images/prdouct_tab_border_active.png) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: 50% 100%;
+    padding-bottom: 7px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.reklam-1{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+
+}
+
+.reklam-1 img{
+
+    margin: center;
+}
+
+.reklam-2{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    padding: 0px;
+    margin-top: 5px;
+
+}
+
+.reklam-2 img{
+
+    margin-right: 5px;
+}
+
+.slider-1{
+    position: relative;
+}
+
+.slider-1-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.slider-1-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#i1, #i2, #i3, #i4{
+    display: none;
+}
+
+.pre, .nxt{
+    width: 5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88,88,88,.4);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.pre{
+    left: 0;
+}
+
+.nxt{
+    right: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots{
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,.6);
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four{
+    z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3,
+#i4:checked ~ .nav #dot4{
+    background: #fff;
+}
+
+.slider-2{
+    height: 300px;
+    width: 530px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-2-content{
+    position: absolute;
+    animation: slide-2 5s infinite;
+    width: 200%;
+    left: 0;
+}
+
+.slider-2-item{
+    width: 50%;
+    float: left;
+}
+
+@keyframes slide-2{
+    0%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: translateX(-530px);
+    }
+    0%{
+        transform: translateX(-530px);
+    }
+    80%{
+        transform: translateX(-530px);
+    }
+}
+
+
+.slider-3{
+    background: url(images/comment_slider_bg.png) no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 320px;
+    margin-left: -110px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-3-content{
+    position: absolute;
+    animation: slide-3 5s infinite;
+    width: 200%;
+    left: 0;
+}
+
+.slider-3-item{
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 40%;
+    float: left;
+}
+
+.slider-3-item img{
+    width: 250px;
+    float: left;
+}
+
+@keyframes slide-3{
+    0%{
+        transform: translateX(0px);
+    }
+    20%{
+        transform: translateX(-320px);
+    }
+    50%{
+        transform: translateX(320px);
+    }
+    20%{
+        transform: translateX(-320px);
+    }
+}
+
+
+.urunler{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.urunler img{
+
+    width: 300px;
+    height: 260px;
+    margin-left: 2.25%;
+    margin-top: 2%;
+}
+
+.urun{
+    height: 400px;
+    border: 1px;
+    border-style: ridge;
+    border-color: gray;
+    border-style: solid;
+    padding: 3px;
+    margin: 2px;
+    display: grid;
+    grid-template-rows: 5fr 2fr 1fr;
+}
+
+.urun-isim{
+
+    margin-top: -0.3px;
+    margin-left: 6px;
+}
+
+.fiyat-at-sepete{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.urun-fiyat{
+
+    font-size: 25px;
+    color: #d53235;
+    margin-left: 6px;
+    margin-top: 9px;
+
+}
+
+.at-sepete-buton{
+
+    float: right;
+    border: 0px;
+    background-color: transparent;
+
+
+}
+
+.at-sepete-buton img{
+
+    height: 36px;
+    width: 115px;
+}
+
+.at-sepete-buton:active, .at-sepete-buton:focus{
+
+    border: 0px;
+}
+
+.yeni-lezzetlerimiz{
+
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.reklam-yeni-lezzetlerimiz{
+
+    margin-top: 9px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.reklam-yeni-lezzetlerimiz img{
+
+    margin-left: 7px;
+    padding: 0px;
+}
+
+.ciftlikten-sectiklerimiz{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.urun-alt-isim{
+
+    margin-top: -0.3px;
+    margin-left: 6px;
+    text-overflow: ellipsis;
+    color: #737373;
+    font-size: 13.5px;
+}
+
+.footer-farm{
+
+    height: 50px;
+    width: 101%;
+    margin-left: -10px;
+    margin-right: -100px;
+    margin-top: 50px;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -7px;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: 101%;
+    height: 630px;
+    background: url(images/footer/footer_pattern.png);
+   
+    background-color: #2b190c;
+}
+
+.adres-mesai{
+    height: 100px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.adres h4{
+    font-size: 18px;
+    margin-top: 60px;
+    position: relative;
+    color: #a82103;
+}
+
+.adres h4::after{
+
+    text-align: left;
+    text-align: center;
+    margin-top: 2px;
+    margin: auto;
+    content: "";
+    border-top: 2px solid #a82103;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.adres p{
+    margin-top: -10px;
+    color: #ceb49c;
+    font-weight: 600;
+    line-height: 21px;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 12px;
+}
+
+.adres a{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ceb49c;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+.adres span{
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 15px;
+    color: #a82103;
+}
+
+.mesai h4{
+    font-size: 18px;
+    margin-top: 60px;
+    position: relative;
+    color: #a82103;
+}
+
+.mesai h4::after{
+    text-align: left;
+    text-align: center;
+    margin-top: 2px;
+    margin: auto;
+    content: "";
+    border-top: 2px solid #a82103;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mesai span{
+    font-size: 17px;
+    color: #ceb49c;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.mesai img{
+    width: 80px;
+
+}
+
+
+.harita-hesabim{
+    height: 100px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.site-haritasi h4{
+
+    font-size: 18px;
+    margin-top: 60px;
+    position: relative;
+    color: #a82103;
+
+}
+
+.site-haritasi h4::after{
+
+    text-align: left;
+    text-align: center;
+    margin-top: 2px;
+    margin: auto;
+    content: "";
+    border-top: 2px solid #a82103;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footer-list{
+    margin-left: -22px;
+}
+
+.footer-list a{
+
+    font-size: 14px;
+    color: #ceb49c;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+.hesabim h4{
+
+    font-size: 18px;
+    margin-top: 40px;
+    position: relative;
+    color: #a82103;
+
+}
+
+.hesabim h4::after{
+
+    text-align: left;
+    text-align: center;
+    margin-top: 2px;
+    margin: auto;
+    content: "";
+    border-top: 2px solid #a82103;
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.hesabim ul{
+    margin-left: -24px;
+}
+
+.hesabim a{
+
+    font-size: 14px;
+    color: #ceb49c;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+.hesabim img{
+
+    width: 140px;
+    margin-top: -10px;
+}
+
+.eposta-iletisim{
+    margin-top: 55px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.e-posta span{
+    font-size: 14px;
+    font-family: 'Palanquin',sans-serif;
+    color: #a82103;
+}
+
+.e-posta input{
+
+    text-align: center;
+    border: 0px;
+    background-color: #ceb49c;;
+    width: 180px;
+    height: 40px;
+
+}
+
+.e-posta button{
+    margin-top: 1px;
+    margin-left: -4px;
+    width: 70px;
+    height: 42.5px;
+    background-color: #a82103;
+    border: 0px;
+    color: #ceb49c;
+}
+
+.siparis-numara p{
+
+    font-size: 13px;;
+    margin-top: -50px;
+    font-size: 14px;
+    font-family: 'Palanquin',sans-serif;
+    color: #a82103;
+
+}
+
+.siparis-numara span{
+
+    font-size: 18px;
+    color: #ceb49c;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.sosyal-medya{
+    margin-top: -100px;
+}
+
+.sosyal-medya span{
+    font-size: 12px;
+    color: #634836;
+    font-family: 'Palanquin',sans-serif;
+    margin-top: 40px;
+}
+
+.sosyal-medya img{
+
+    width: 30px;
+}
+
+.footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75px;
+    float: left;
+    width: 100%;
+    background: #fcf6eb;
+}
+
+.secure{
+    margin-left: 150px;
+    margin-top: -35px;
+}
+
+.all-badges{
+    width: 350px;
+    margin-left: 60px;
+}
+
+.footer-bottom-right{
+    height: 75px;
+}
+
+.footer-bottom-right span{
+    font-size: 15px;
+    margin-top: -200px;
+    margin-left: 140px;
+}
+
+.footer-bottom-right img{
+    margin-top:28px;
+    margin-left: 200px;
+}
+
+
+
