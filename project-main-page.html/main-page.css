@@ -370,7 +370,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0px;
-
+    margin-top: 10px;
 }
 
 .reklam-1 img{
@@ -391,6 +391,65 @@
 
     margin-right: 5px;
 }
+
+.slider-1{
+    margin-top: 5px;
+    height: 400px;
+    width: 5350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-1-content{
+    position: absolute;
+    animation: slide-1 20s infinite;
+    width:100%;
+    left: 0;
+}
+
+.slider-1-item{
+    width: 25%;
+    float: left;
+}
+
+.slider-1-item img{
+    height: auto;
+    width: 1450px;
+}
+
+.sslider-1{
+    margin-top: -40px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes slide-1{
+    0%{
+        transform: translateX(50px);
+    }
+    15%{
+        transform: translateX(-1350px);
+    }
+    30%{
+        transform: translateX(-1350px);
+    }
+    45%{
+        transform: translateX(-2700px);
+    }
+    60%{
+        transform: translateX(-2700px);
+    }
+    75%{
+        transform: translateX(-4050px);
+    }
+    90%{
+        transform: translateX(-4050px);
+    }
+    
+}
+
 
 .slider-2{
     height: 300px;
@@ -524,11 +583,24 @@
     float: right;
     border: 0px;
     background-color: transparent;
-
-
 }
 
 .at-sepete-buton img{
+
+    height: 36px;
+    width: 115px;
+}
+
+.at-sepete-button{
+
+    margin-top: -55px;
+    margin-left: 185px;
+    float: right;
+    border: 0px;
+    background-color: transparent;
+}
+
+.at-sepete-button img{
 
     height: 36px;
     width: 115px;
@@ -725,11 +797,11 @@
 
 }
 
-.footer-list{
+.site-haritasi ul{
     margin-left: -22px;
 }
 
-.footer-list a{
+.site-haritasi ul li{
 
     font-size: 14px;
     color: #ceb49c;
@@ -768,7 +840,17 @@
     margin-left: -24px;
 }
 
-.hesabim a{
+.hesabim li{
+
+    font-size: 14px;
+    color: #ceb49c;
+    font-family: kg_turning_tablesregular,sans-serif;;
+    text-decoration: none;
+    vertical-align: baseline;
+
+}
+
+.hesabim li a{
 
     font-size: 14px;
     color: #ceb49c;
@@ -797,7 +879,6 @@
 }
 
 .e-posta input{
-
     text-align: center;
     border: 0px;
     background-color: #ceb49c;;

@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Hasanbey Çiftliği | Doğal Meyve, Sebze, Domates, Süt, Peynir, Zeytin, Yumurta...">
+    <meta name="keywords" content="Doğal, Meyve, Sebze, Domates, Biber, Çiğ, Süt, Peynir, Zeytin, Zeytinyağı, Yumurta, Köy Yumurtası, Bal, Reçel, Şeker domates, erişte, ekmek, köy ekmeği, tarhana, salça, sucuk, bez sucuk, file sucuk, lor, tulum, bergama, kaşar, dağ peyniri, yoğurt, enginar">
     <link rel="stylesheet" href="main-page.css">
-    <script src="vue.js"></script>
-    <script src="vue-carousel-master/dist/vue-carousel.js"></script>
-    <script src="main-page.js"></script>
-    <title>Hasanbey Çiftliği</title>
+    <title>Hasanbey Çiftliği | Doğal Meyve, Sebze, Domates, Süt, Peynir, Zeytin, Yumurta...</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
     
@@ -103,9 +103,15 @@
     <div class="main">
 
         <div class="reklamlar">
-
-            <div class="slider-1">
-                
+            <div class="sslider-1">
+                <div class="slider-1">
+                    <div class="slider-1-content">
+                        <div class="slider-1-item"><a href="https://www.hasanbey.com/tr/domates-biber"><img src="images/Hasanbeycom_banner-33-.jpg" alt=""></a></div>
+                        <div class="slider-1-item"><a href="https://www.hasanbey.com/tr/domates-biber"><img src="images/sokaBanner-124-.jpg" alt=""></a></div>
+                        <div class="slider-1-item"><a href="https://www.hasanbey.com/tr/domates-biber"><img src="images/gunluk_koy_yumurta-27-.jpg" alt=""></a></div>
+                        <div class="slider-1-item"><a href="https://www.hasanbey.com/tr/domates-biber"><img src="images/karpuz_banner-126-.jpg" alt=""></a></div>
+                    </div>
+                </div>
             </div>
 
             <div class="reklam-1">
@@ -126,11 +132,11 @@
                 </div>
 
                 <div class="slider-3">
-                        <div class="slider-3-content">
-                            <div class="slider-3-item"><img src="images/1.PNG" alt=""></div>
-                            <div class="slider-3-item"><img src="images/2.PNG" alt=""></div>
-                        </div>
+                    <div class="slider-3-content">
+                        <div class="slider-3-item"><img src="images/1.PNG" alt=""></div>
+                        <div class="slider-3-item"><img src="images/2.PNG" alt=""></div>
                     </div>
+                </div>
 
                 <div><a href="https://www.hasanbey.com/tr/yumurta"><img src="images/yumurta_sd-7-.jpg" alt=""></a></div>
 
@@ -219,7 +225,7 @@
                         <div class="fiyat-at-sepete">
     
                             <div>
-                                <h3 class="urun-fiyat">14,90 TL</h3>
+                                <h3 class="urun-fiyat">11,90 TL</h3>
                             </div>
                             <div>
                                 <button class="at-sepete-buton"><img src="images/banner/at_sepete_sprite.png"></button>
@@ -595,70 +601,64 @@
 
             </div>
 
-            <div class="urunler">
+            <div id="app-3" class="urunler">
 
                     <div class="urun">
 
-                            <div><a href="hasanbey.com/tr/eski-kaşar-500-gr"><img src="images/ürünler/0001172_eski-kasar-peyniri-500-gr_500.png"></a></div>
+                        <div><a href="hasanbey.com/tr/eski-kaşar-500-gr"><img src="images/ürünler/0001172_eski-kasar-peyniri-500-gr_500.png"></a></div>
         
-                            <div>
-                                <h3 class="urun-isim">Eski Kaşar Peyniri 500 Gr</h3>
-                                <h5 class="urun-alt-isim">500 Gr Eski Kaşar Peyniri</h5>
-                            </div>
-        
-                            <div class="fiyat-at-sepete">
-        
-                                <div>
-                                    <h3 class="urun-fiyat">51,75 TL</h3>
-                                </div>
-                                <div>
-                                    <button class="at-sepete-buton"><img src="images/banner/at_sepete_sprite.png"></button>
-                                </div>
-        
-                            </div>
+                        <div v-for="product in productList1" class="productInfo">
+                            <h3 class="urun-isim">{{product.urunIsim1}}</h3>
+                            <h5 class="urun-alt-isim">{{product.urunAltIsim1}}</h5>
+                            <h3 class="urun-fiyat">{{product.urunFiyat1}}</h3>
                         </div>
-        
-                        <div class="urun">
-                                <div><a href="https://www.hasanbey.com/tr/bez-sucuk-500-gr"><img src="images/ürünler/0001179_bez-sucuk-500-gr_500.jpeg"></a></div>
-        
-                                <div>
-                                    <h3 class="urun-isim">Bez Sucuk 500 Gr</h3>
-                                    <h5 class="urun-alt-isim">500 Gr Fermente Bez Sucuk</h5>
-                                </div>
-            
-                                <div class="fiyat-at-sepete">
-            
-                                    <div>
-                                        <h3 class="urun-fiyat">67,90 TL</h3>
-                                    </div>
-                                    <div>
-                                        <button class="at-sepete-buton"><img src="images/banner/at_sepete_sprite.png"></button>
-                                    </div>
-            
-                                </div>
-                        </div>
-        
-                        <div class="urun">
 
-                                <div><a href="https://www.hasanbey.com/tr/biber-tursusu-karisik-1425-gr"><img src="images/ürünler/0001123_biber-tursusu-karisik-1425-gr_500.png"></a></div>
-
-                        <div>
-                            <h3 class="urun-isim">Biber Turşusu ( Karışık ) 142...</h3>
-                            <h5 class="urun-alt-isim">1425 Gr Biber Turşusu</h5>
-                        </div>
-    
                         <div class="fiyat-at-sepete">
-    
                             <div>
-                                <h3 class="urun-fiyat">15,00 TL</h3>
+                                <button class="at-sepete-button"><img src="images/banner/at_sepete_sprite.png"></button>
                             </div>
+                        </div>
+                    </div>
+        
+                    <div class="urun">
+
+                        <div><a href="https://www.hasanbey.com/tr/bez-sucuk-500-gr"><img src="images/ürünler/0001179_bez-sucuk-500-gr_500.jpeg"></a></div>
+
+                        <div v-for="product in productList2" class="productInfo">
+                            <h3 class="urun-isim">{{product.urunIsim2}}</h3>
+                            <h5 class="urun-alt-isim">{{product.urunAltIsim2}}</h5>
+                            <h3 class="urun-fiyat">{{product.urunFiyat2}}</h3>
+                        </div>
+            
+                        <div class="fiyat-at-sepete">
                             <div>
-                                <button class="at-sepete-buton"><img src="images/banner/at_sepete_sprite.png"></button>
+                                <button class="at-sepete-button"><img src="images/banner/at_sepete_sprite.png"></button>
                             </div>
-    
+                        </div>
+                    </div>
+
+        
+                    <div class="urun">
+
+                        <div><a href="https://www.hasanbey.com/tr/biber-tursusu-karisik-1425-gr"><img src="images/ürünler/0001123_biber-tursusu-karisik-1425-gr_500.png"></a></div>
+
+        
+                        <div v-for="product in productList3" class="productInfo">
+                            <h3 class="urun-isim">{{product.urunIsim3}}</h3>
+                            <h5 class="urun-alt-isim">{{product.urunAltIsim3}}</h5>
+                            <h3 class="urun-fiyat">{{product.urunFiyat3}}</h3>
+                        </div>
+                            
+                        <div class="fiyat-at-sepete">
+                            <div>
+                                <button class="at-sepete-button"><img src="images/banner/at_sepete_sprite.png"></button>
+                            </div>
                         </div>
 
-                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -688,20 +688,21 @@
 
 
         <div class="harita-hesabim">
+
+            
+
             <div class="site-haritasi">
                 <h4>Site Haritası</h4>
-                <ul class="footer-list">
-                    <li><a href="https://www.hasanbey.com/tr/garant%C4%B0-ve-%C4%B0ade-kosullari">Garanti ve İade Koşulları</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/g%C4%B0zl%C4%B0l%C4%B0k-ve-guvenl%C4%B0k">Gizlilik ve Güvenlik</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/aydinlatma-metni">Aydınlatma Metni</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/mesafel%C4%B0-satis-sozlesmes%C4%B0">Mesafeli Satış Sözleşmesi</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/uyel%C4%B0k-sozlesmes%C4%B0">Üyelik Sözleşmesi</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/kullanim-kosullari">Kullanım Koşulları</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/h%C4%B0zmet-sozlesmes%C4%B0">Hizmet Sözleşmesi</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/guvenletuketebilirsiniz">Güvenle Tüketebilirsiniz</a></li>
-                    <li><a href="https://www.hasanbey.com/tr/basinda-ciftligimiz">Basında Çiftliğimiz</a></li>
-                </ul>
+                <div id="app-1">
+                        <ul>
+                            <li v-for="todo in todos">
+                                {{todo.text}} 
+                            </li>
+                        </ul>
+                    </div>
             </div>
+            
+
             <div class="hesabim">
                     <h4>Hesabım</h4>
                     <ul><li><a href="https://www.hasanbey.com/tr/cart">Sepetim</a></li></ul><br><br>
@@ -715,8 +716,13 @@
 
             <div class="e-posta">
                 <span>E-posta listesine kayıt olun:</span><br><br>
-                <input type="text" placeholder="E-posta adresinizi yazın...">
-                <button type="button">Gönder</button>
+
+                <div id="app-2">
+                    <input v-model="message">
+                    <button type="button">Gönder</button>
+                </div>
+
+               
             </div>
 
 
@@ -754,6 +760,64 @@
         </div>
 
     </div>
+
+
+
+<script>
+
+    var app1 = new Vue({
+    el: '#app-1',
+    data: {
+        todos: [
+        { text: 'Garanti ve İade Koşulları'},
+        { text: 'Gizlilik ve Güvenlik' },
+        { text: 'Aydınlatma Metni' },
+        { text: 'Mesafeli Satış Sözleşmesi'},
+        { text: 'Üyelik Sözleşmesi' },
+        { text: 'Kullanım Koşulları' },
+        { text: 'Hizmet Sözleşmesi'},
+        { text: 'Güvenle Tüketebilirsiniz' },
+        { text: 'Basında Çiftliğimiz' }
+        ]
+    }
+    })
+
+    var app2 = new Vue({
+    el: '#app-2',
+    data: {
+        message: 'E-posta adresinizi yazın...'
+    }
+    })
+
+    var app3 = new Vue({
+        el: '#app-3',
+        data: {
+
+            productList1 : [
+                {
+                    urunIsim1: 'Eski Kaşar Peyniri 500 Gr',
+                    urunAltIsim1: '500 Gr Eski Kaşar Peyniri',
+                    urunFiyat1: '51,75 TL'
+                }],
+
+            productList2 : [
+                {
+                    urunIsim2: 'Bez Sucuk 500 Gr',
+                    urunAltIsim2: '500 Gr Fermente Bez Sucuk',
+                    urunFiyat2: '67,90 TL' 
+                }],
+                
+            productList3 : [
+                {
+                    urunIsim3: 'Biber Turşusu ( Karışık ) 142...',
+                    urunAltIsim3: '1425 Gr Biber Turşusu',
+                    urunFiyat3: '15,00 TL'
+
+                }]
+        }
+    })
+    
+</script>
 
 </body>
 </html>
