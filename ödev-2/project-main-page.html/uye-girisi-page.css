@@ -1,0 +1,219 @@
+.main-uye-girisi{
+    margin-top: -40px;
+    height: 1100px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -100px;
+    background: url(images/uye-olun/login_bg.jpg) no-repeat left;
+    background-size: 2000px;
+}
+
+.hosgeldiniz{
+    width: 500px;
+    height: 620px;
+    margin-top: 140px;
+    margin-left: 470px;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.hosgeldiniz h2{
+    color: #b76f3b;
+    margin-top: -42px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+.uye-girisi-img{
+    position: relative;
+    margin-top: -21px;
+    margin-left: 142px;
+}
+
+.email{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.email label{
+    display: block;
+    font-family: kg_turning_tablesregular, sans-serif;
+    color: rgb(213, 50, 53);
+    text-align: left;
+    font-weight: bold;
+}
+
+.email input{
+    background-color: rgb(234, 230, 220);
+    box-shadow: rgba(0, 0, 0, 0.03) 2px 3.464px 0px 0px inset;
+    width: 290px;
+    height: 25px;
+    color: rgb(131, 105, 87);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-radius: 2px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 8px;
+}
+
+.sifre{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.sifre label{
+    display: block;
+    font-family: kg_turning_tablesregular, sans-serif;
+    color: rgb(213, 50, 53);
+    text-align: left;
+    font-weight: bold;
+}
+
+.sifre input{
+    background-color: rgb(234, 230, 220);
+    box-shadow: rgba(0, 0, 0, 0.03) 2px 3.464px 0px 0px inset;
+    width: 290px;
+    height: 25px;
+    color: rgb(131, 105, 87);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-radius: 2px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 8px;
+}
+
+.beni-hatırla{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.beni-hatırla span{
+    margin-left: 130px;
+}
+
+.beni-hatırla span a{
+    color: #1e4689;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.beni-hatırla label{
+    font-size: 12px;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    color: #886f5d;
+}
+
+.giris-facebook{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.giris-buton{
+    cursor: pointer;
+    border: 0;
+    background: #73a12e;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 187px;
+    height: 46px;
+}
+
+.giris-buton:hover{
+    cursor: pointer;
+    border: 0;
+    background: #62802a;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 187px;
+    height: 46px;
+}
+
+.giris-facebook p{
+    margin-left: 75px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+
+.facebook a{
+    margin-left: 0px;
+    border-radius: 2px;
+    background: #1e4689;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    text-align: center;
+    padding: 16px 25px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.facebook a:hover{
+    margin-left: 0px;
+    border-radius: 2px;
+    background: #2a5db1;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    text-align: center;
+    padding: 16px 25px;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.uye-olun{
+    margin-top: 0px;
+    margin-left: 470px;
+    width: 500px;
+    height: 40px;
+    background: #f3eee8;
+    padding: 15px 0;
+    display: block;
+}
+
+.uye-olun span{
+    margin-bottom: -100px;
+    margin-left: 70px;
+    color: #b76f3b;
+    font-family: kg_turning_tablesregular,sans-serif;
+    font-weight: bold;
+}
+
+.uye-olun-buton{
+    margin-left: 20px;
+    background: #dc4249;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0;
+    width: 156px;
+    height: 41px;
+    cursor: pointer;
+}
+
+.uye-olun-buton:hover{
+    margin-left: 20px;
+    background: #bc2e35;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0;
+    width: 156px;
+    height: 41px;
+    cursor: pointer;
+    opacity: .7;
+}

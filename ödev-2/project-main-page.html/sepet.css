@@ -1,0 +1,221 @@
+body {
+    font-family: kg_turning_tablesregular,sans-serif;
+}
+
+.sepet-main{
+    height: 550px;
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+}
+
+.sepet-baslik{
+    color: #b76f3b;
+    text-align: left;
+    font-size: 18px;
+}
+
+.min-miktar-uyarisi{
+    display: block;
+    border: 2px solid #e64552;
+    padding: 7px 12px;
+    color: #e64552;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.sepet-urun-basliklari{
+    margin-top: -30px;
+    color: #b76f3b;
+    padding-left: 0;
+    display: inline-block;
+    position: relative;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.urun-adi{
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    width: 34%;
+}
+
+.urun-adet{
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    width: 28%;
+}
+
+.urun-tutar{
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    width: 28%;
+}
+
+.urun-sil{
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    width: 10%;
+}
+
+.alisverise-devam-buton{
+    text-align: initial;
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.alisverise-devam-input{
+    -webkit-appearance: button;
+    cursor: pointer;
+    display: initial;
+    float: left;
+    background: #d4c7bc;
+    width: 253px;
+    height: 46px;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.alisverise-devam-input:hover{
+    -webkit-appearance: button;
+    cursor: pointer;
+    display: initial;
+    float: left;
+    background-color: #bb9c80;
+    width: 253px;
+    height: 46px;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fiyat-tablosu{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 2fr 3fr 2fr;
+    margin-left: 80px;
+}
+
+.ara-toplam-kargo-ucreti{
+    border: 1px solid #dcdcdc;
+}
+
+.ara-toplam-kargo-ucreti li{
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
+.ara-toplam-kargo-ucreti span{
+    font-weight: bold;
+}
+
+.sepet-urun-adedi{
+    
+    border: 1px solid #dcdcdc;
+    border: 5;
+}
+
+.sepet-urun-adedi img{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 27px;
+}
+
+.sepet-urun-adedi span{
+    margin-left: 5px;
+    color: #d53235;
+    padding: 3px 15px;
+    font-weight: bold;
+}
+
+.ara-toplam-kargo-ucreti ul{
+    display: block;
+    list-style-type: disc;
+}
+
+.ara-toplam-kargo-ucreti ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    padding: 11px 10px;
+}
+
+.toplam{
+    border: 1px solid #dcdcdc;
+}
+
+.toplam p{
+    margin-left: 6px;
+    color: #d53235;
+    font-weight: bold;
+}
+
+.indirim-kodu{
+    border: 1px solid #dcdcdc;
+}
+
+.indirim-kodu p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.i-kupon-input{
+    margin-left: 10px;
+    background: #fff;
+    font-family: georgia;
+    font-size: 12px;
+    padding: 0px;
+    width: 200px;
+    height: 34px;
+    border: 1px solid #dedede!important;
+}
+
+.i-kupon-buton{
+    cursor: pointer;
+    font-size: 12px;
+    background: #afa58c;
+    color: #fff;
+    height: 35px!important;
+    width: 90px;
+    border: none;
+}
+
+.satin-al-input {
+    cursor: pointer;
+    height: 48px;
+    border: none;
+    background: #73a12e;
+    width: 100%!important;
+    float: left;
+    margin-top: 25px;
+    color: #fff;
+    font-family: kg_turning_tablesregular,sans-serif;
+    font-size: 16px;
+}
+
+.min-siparis-tutari p{
+    font-size: 15px;
+    margin-top: -50px;
+    font-weight: bold;
+}
+
+.uzeri-kargo{
+    font-weight: bold;
+    margin-left: 520px;
+    margin-top: 420px;
+}
